@@ -9,3 +9,4 @@ C:\Code\LearnCucumber\Shouty\obj\Debug\net6.0\Shouty.csproj.CoreCompileInputs.ca
 C:\Code\LearnCucumber\Shouty\obj\Debug\net6.0\Shouty.dll
 C:\Code\LearnCucumber\Shouty\obj\Debug\net6.0\ref\Shouty.dll
 C:\Code\LearnCucumber\Shouty\obj\Debug\net6.0\Shouty.pdb
+C:\Code\LearnCucumber\Shouty\obj\Debug\net6.0\Shouty.csproj.AssemblyReference.cache

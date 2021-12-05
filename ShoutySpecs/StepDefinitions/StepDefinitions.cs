@@ -8,28 +8,45 @@ namespace ShoutySpecs.StepDefinitions
     [Binding]
     public class StepDefinitions
     {
-        private Person lucy = new Person();
-        private Person sean = new Person();
+
+        private Person lucy;
+        private Person sean;
 
         private string messageFromSean;
+        private Network network = new Network();
 
-        [Given("Lucy is located {int}m from Sean")]
-        public void GivenLucyIsLocatedMFromSean(int distance)
+        [Given("Lucy is {int} metres from Sean")]
+        public void GivenLucyIsMetresFromSean(int distance)
         {
+            var network = new Network();
+            sean = new Person(network);
+            lucy = new Person(network);
             lucy.MoveTo(distance);
+        }
+
+        [Given("a person named Lucy")]
+        public void GivenAPersonNamedLucy()
+        {
+            lucy = new Person(network);
+        }
+
+        [Given("a person named Sean")]
+        public void GivenAPersonNamedSean()
+        {
+            sean = new Person(network);
         }
 
         [When("Sean shouts {string}")]
         public void WhenSeanShouts(string message)
         {
-            sean.Shouts(message);
+            sean.Shout(message);
             messageFromSean = message;
         }
 
-        [Then("Lucy hears Sean's message")]
-        public void ThenLucyHearsSeansMessage()
+        [Then("Lucy should hear Sean's message")]
+        public void ThenLucyShouldHearSeansMessage()
         {
-            Assert.Contains(messageFromSean, lucy.MessageHeard());
+            Assert.Contains(messageFromSean, lucy.GetMessagesHeard());
         }
     }
 }
