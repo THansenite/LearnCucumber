@@ -8,8 +8,10 @@
     ".NETCoreApp,Version=v6.0": {
       "ShoutySpecs/1.0.0": {
         "dependencies": {
+          "CucumberExpressions.SpecFlow.3-9": "1.0.6",
           "Microsoft.NET.Test.Sdk": "16.11.0",
           "Shouty": "1.0.0",
+          "SpecFlow": "3.9.40",
           "SpecFlow.Tools.MsBuild.Generation": "3.9.40",
           "SpecFlow.xUnit": "3.9.40",
           "coverlet.collector": "3.1.0",
@@ -29,6 +31,17 @@
         }
       },
       "coverlet.collector/3.1.0": {},
+      "CucumberExpressions.SpecFlow.3-9/1.0.6": {
+        "dependencies": {
+          "SpecFlow": "3.9.40"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CucumberExpressions.SpecFlow.SpecFlowPlugin.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      },
       "Gherkin/19.0.3": {
         "runtime": {
           "lib/netstandard2.0/Gherkin.dll": {
@@ -1288,6 +1301,13 @@
       "sha512": "sha512-YzYqSRrjoP5lULBhTDcTOjuM4IDPPi6PhFsl4w8EI4WdZhE6llt7E38Tg4CHyrS+QKwyu1+9OwkdDgluOdoBTw==",
       "path": "coverlet.collector/3.1.0",
       "hashPath": "coverlet.collector.3.1.0.nupkg.sha512"
+    },
+    "CucumberExpressions.SpecFlow.3-9/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uNfnC0eI9b6PsEwYN5im0sETdVaknZF+meGfm4yoUCyH5XYfcOTCG4R+h0zZQc36kyt4fpLNRVDd8Fux+bHH0w==",
+      "path": "cucumberexpressions.specflow.3-9/1.0.6",
+      "hashPath": "cucumberexpressions.specflow.3-9.1.0.6.nupkg.sha512"
     },
     "Gherkin/19.0.3": {
       "type": "package",

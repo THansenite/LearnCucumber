@@ -113,3 +113,4 @@ C:\Code\LearnCucumber\ShoutySpecs\obj\Debug\net6.0\ShoutySpecs.dll
 C:\Code\LearnCucumber\ShoutySpecs\obj\Debug\net6.0\ref\ShoutySpecs.dll
 C:\Code\LearnCucumber\ShoutySpecs\obj\Debug\net6.0\ShoutySpecs.pdb
 C:\Code\LearnCucumber\ShoutySpecs\obj\Debug\net6.0\ShoutySpecs.genruntimeconfig.cache
+C:\Code\LearnCucumber\ShoutySpecs\bin\Debug\net6.0\CucumberExpressions.SpecFlow.SpecFlowPlugin.dll
