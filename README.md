@@ -1,7 +1,7 @@
 # LearnCucumber
 Test project to learn Cucumber and Gherkin
 
-##Environment Setup##
+##Environment Setup
 Basic steps I went through to create a new Cucumber environment:
 
 **Manage Extensions**
